@@ -1,0 +1,113 @@
+
+.swiper {
+  width: 240px;
+  height: 320px;
+  margin-right: 20px;
+
+}
+.mySwiper {
+  width: 100%;
+  height: 400px;
+  margin-right: 20px;
+
+}
+
+.rounded-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+
+.slide-content {
+  width: 50%;
+  margin-right: 20px;
+
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rounded-image {
+  width: 50%;
+  height: 100%;
+  margin-right: 20px;
+
+  object-fit: cover;
+  border-radius: 10px;
+}
+@media screen and (max-width: 768px) {
+  .swiper {
+    width: 100%; /* Set width to 100% for responsiveness */
+    height: auto; /* Let height adjust automatically */
+    margin-right: 0; /* Remove margin for smaller screens */
+  }
+  
+  .mySwiper {
+    width: 100%; /* Set width to 100% for responsiveness */
+    height: auto; /* Let height adjust automatically */
+    margin-right: 20px; /* Remove margin for smaller screens */
+  }
+  
+  .rounded-image {
+    width: 100%; /* Set width to 100% for responsiveness */
+    height: auto; /* Let height adjust automatically */
+    margin-right: 20px; /* Remove margin for smaller screens */
+    border-radius: 10px; /* Retain border radius */
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .catering-hall-details img {
+    max-width: 60%;
+    margin-left: 200px;
+   
+  
+  }
+  .catering-hall-details p {
+    font-size: 16px;
+    line-height: 1.6;
+display: block; 
+align-items: center;
+margin-left: 250px;
+}
+}@media screen and (max-width: 1000px) {
+  .room-booking-hall-details img {
+    max-width: 60%;
+    margin-left: 250px;
+   
+  
+  }
+  .room-booking-hall-details p {
+    font-size: 16px;
+    line-height: 1.6;
+display: block;
+align-items:center; 
+align-content: center;
+margin-inline-start: 10%;
+margin-left:150px ;
+
+
+}
+}
+
+@media screen and (max-width: 1000px) {
+  .suppliers-hall-details img {
+    max-width: 60%;
+    margin-left: 250px;
+   
+  
+  }
+  .suppliers-hall-details p {
+    font-size: 16px;
+    line-height: 1.6;
+display: block;
+align-items:center; 
+align-content: center;
+margin-inline-start: 10%;
+margin-left:250px ;
+
+
+}}

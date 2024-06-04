@@ -1,0 +1,74 @@
+.convention-hall-details {
+    max-width: 100%;
+    margin: auto;
+    padding: 0 20px;
+  }
+  
+  .convention-hall-details img {
+    max-width: 100%;
+  
+  }
+
+  .convention-hall-details p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+ 
+  @media screen and (max-width: 1000px) {
+    .convention-hall-details img {
+      max-width: 60%;
+      margin-left: 250px;
+     
+    
+    }
+    .convention-hall-details p {
+      font-size: 16px;
+      line-height: 1.6;
+display: block;    }
+   
+  }@media screen and (max-width: 768px) {
+  /* Adjust padding for smaller screens */
+  .convention-hall-details {
+    padding-left: 20px; /* Adjust left padding for smaller screens */
+    margin: 20px;
+    align-content: center;
+  }
+
+  /* Center align paragraphs for smaller screens */
+  .convention-hall-details {
+    padding-left: 20px; /* Adjust left padding for smaller screens */
+    align-items: center;
+
+  }
+  .title-header-large{
+    margin-left:250px;
+  }
+  
+  .convention-hall-details p {
+    margin-inline-start: 28%;
+    
+    margin-left: 259px;
+  }
+  
+  .mySwiper {
+    margin-left: auto; /* Center the swiper horizontally */
+    margin-right: auto; /* Center the swiper horizontally */
+    max-width: 100%;
+    height: 7%; /* Limit the width of the swiper */
+  }
+
+
+  
+.rounded-image{
+  margin-left: 20px;
+  max-width: 50%;
+  height: 2%;
+  align-items: center;
+   
+} 
+ .contact-form{
+    margin-inline-start: 30%;
+    margin-right: 10px;
+
+  }
+}

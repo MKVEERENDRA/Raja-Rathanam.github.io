@@ -1,0 +1,77 @@
+/* Apply Flexbox layout to the room-booking-hall-details container */
+.room-booking-hall-details {
+  display: flex;
+  flex-direction: column;
+  
+}
+.room-booking-hall-details img {
+  max-width: 90%;
+  height: 29%;
+}
+.swiper-slide {
+  display: flex;
+  margin-right: 90px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+
+
+}
+
+/* Apply styles for paragraphs inside room-booking-hall-details */
+.room-booking-hall-details p {
+  margin-bottom: 20px;
+  max-width: 80%;
+}
+@media screen and (max-width: 1000px) {
+  .room-booking-hall-details img {
+    max-width: 60%;
+    margin-left: 250px;
+   
+  
+  }
+  .room-booking-hall-details p {
+    font-size: 16px;
+    line-height: 1.6;
+display: block;
+align-items:center; 
+align-content: center;
+margin-inline-start: 10%;
+margin-left:0px ;
+
+
+}
+ 
+}
+@media screen and (max-width: 768px) {
+  /* Adjust padding for smaller screens */
+  .room-booking-hall-details {
+    padding-left: 20px; /* Adjust left padding for smaller screens */
+    margin-left: 20px;
+    align-content: center;
+  }
+
+  /* Center align paragraphs for smaller screens */
+  .room-booking-hall-details {
+    padding-left: 20px; /* Adjust left padding for smaller screens */
+    align-items: center;
+
+  }
+  
+  .room-booking-hall-details p {
+    text-align: center; 
+    align-items: center;
+    margin-inline-start: 30%;
+  }
+  
+  .mySwiper, rounded-image{
+    padding: 20px; /* Adjust left padding for smaller screens */
+    margin-left: 20px;
+    align-items: center;
+
+  }
+  .contact-form{
+    margin-inline-start: 30%;
+
+  }
+}
