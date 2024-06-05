@@ -1,6 +1,6 @@
 // Button.js
 import React, { useState } from "react";
-import styles from "./Button.module.css";
+import  "./Button.module.css";
 
 const Button = ({ url }) => {
   const [showPopup, setShowPopup] = useState(false);
@@ -11,12 +11,12 @@ const Button = ({ url }) => {
 
   return (
     <div>
-      <button className={styles.button} onClick={togglePopup}>
+      <button className="button" onClick={togglePopup}>
         Open Popup
       </button>
       {showPopup && (
-        <div className={styles.popup}>
-          <button className={styles.closeButton} onClick={togglePopup}>
+        <div className="popup">
+          <button className="closeButton" onClick={togglePopup}>
             Close
           </button>
           <iframe
