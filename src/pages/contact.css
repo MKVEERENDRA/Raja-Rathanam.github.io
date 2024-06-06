@@ -83,5 +83,28 @@
   display: block;
   margin: 20px auto;
 }
-    }
 
+/* Mobile-specific styles */
+@media (max-width: 775px) {
+    .t{
+        padding-left: 250px;
+    }
+}
+@media (max-width: 1000px) {
+    .t{
+        padding-left: 100px;
+    }
+    .title-header-large{
+        padding-right: 250px;
+
+    }
+}
+@media (max-width: 563px) {
+    .t{
+        padding-left: 200px;
+    }
+    .title-header-large{
+        padding-right: 250px;
+
+    }
+}
