@@ -37,13 +37,12 @@ display: block;
 align-items:center; 
 align-content: center;
 margin-inline-start: 10%;
-margin-left:0px ;
-
+padding-left: 30px;
 
 }
  
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 765px) {
   /* Adjust padding for smaller screens */
   .room-booking-hall-details {
     padding-left: 20px; /* Adjust left padding for smaller screens */
@@ -62,6 +61,11 @@ margin-left:0px ;
     text-align: center; 
     align-items: center;
     margin-inline-start: 30%;
+    display: block;
+align-items:center; 
+align-content: center;
+margin-inline-start: 10%;
+margin-left: 30px;
   }
   
   .mySwiper, rounded-image{
