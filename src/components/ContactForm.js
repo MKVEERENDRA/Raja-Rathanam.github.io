@@ -10,7 +10,7 @@ export default function ContactForm() {
         Accept: "application/json",
       },
       body: JSON.stringify({
-        access_key: "d0563d5e-c371-40bc-a0fd-1972a7b3eff3",
+        access_key: "50519008-8673-4341-9359-0d2b67b31a15",
         name: e.target.name.value,
         email: e.target.email.value,
         message: e.target.message.value,
