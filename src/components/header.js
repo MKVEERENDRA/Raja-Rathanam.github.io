@@ -17,7 +17,7 @@ const Header = () => {
               className="desktop-logo"
             />
             <img
-              src="/images/company/mk1.png"
+              src="/images/company/mk4.png"
               alt="Raja Rathanam"
               title="Raja Rathanam"
               className="mobile-logo"
