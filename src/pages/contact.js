@@ -1,7 +1,6 @@
 import React, { useEffect,useState } from 'react';
 import Layout from "../components/layout";
 import { Helmet } from 'react-helmet';
-import "./home.css";
 import PickaxeButton from "../components/Pix";
 import "./contact.css"
 export default function Contact() {
