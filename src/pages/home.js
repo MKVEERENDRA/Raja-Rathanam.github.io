@@ -25,7 +25,7 @@ export default function Home() {
     </script>
 </Helmet>
       <h1 className="title-header-small">
-        🌙  Welcome to Murali and Vishnu Services! 👋
+        🌙  Welcome to RAJA RATHANAM Services! 👋
       </h1>
     {/* Button */}
 <div className="button-container">
